@@ -1,0 +1,35 @@
+*,html{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+.container{
+    width: 30rem;
+    height: 300px;
+    background-color: antiquewhite;
+    border-radius: 2rem;
+    margin-left: 2rem;
+}
+
+
+.username{
+    padding: .5rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 1px 1px 1px #8888;
+}
+
+.loginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.headLogin{
+    color: cadetblue;
+    padding: 1rem;
+    text-align: center;
+}
